@@ -76,8 +76,9 @@ namespace WPF.Sample.ViewModelLayer
       return ret;
     }
     #endregion
-
+    //This is where it's checked if user is part of the table
     #region ValidateCredentials Method
+    
     public bool ValidateCredentials()
     {
       bool ret = false;
